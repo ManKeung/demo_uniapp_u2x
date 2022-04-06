@@ -1,0 +1,92 @@
+{
+	"id": "uview-ui",
+	"scripts": {
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs",
+		"test": "eslint . --fix",
+		"war": "node ./scripts/war.js",
+		"prepare": "node ./scripts/prepare.js"
+	},
+	"warName": "uview",
+	"dependencies": {
+		"nprogress": "^0.2.0",
+		"uni-read-pages": "^1.0.5",
+		"uni-simple-router": "^2.0.8-beta.3",
+		"vuepress": "^2.0.0-beta.37"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^16.1.0",
+		"@commitlint/config-conventional": "^16.0.0",
+		"@snippetors/vuepress-plugin-code-copy": "^1.1.2",
+		"@vuepress/plugin-git": "^2.0.0-beta.37",
+		"chalk": "4",
+		"enquirer": "^2.3.6",
+		"eslint": "^8.12.0",
+		"eslint-config-airbnb": "^19.0.0",
+		"eslint-plugin-vue": "^8.4.1",
+		"folder-zip-sync": "^1.0.5",
+		"husky": "^7.0.4",
+		"vite": "2.8.2"
+	},
+	"uni-app": {
+		"scripts": {
+			"h5-dev": {
+				"title": "h5-develop",
+				"BROWSER": "Chrome",
+				"env": {
+					"UNI_PLATFORM": "h5"
+				},
+				"define": {
+					"H5-DEV": true
+				}
+			},
+			"h5-test": {
+				"title": "h5-test",
+				"BROWSER": "Chrome",
+				"env": {
+					"UNI_PLATFORM": "h5"
+				},
+				"define": {
+					"H5-TEST": true
+				}
+			},
+			"h5-prod": {
+				"title": "h5-production",
+				"BROWSER": "Chrome",
+				"env": {
+					"UNI_PLATFORM": "h5"
+				},
+				"define": {
+					"H5-PROD": true
+				}
+			},
+			"wx-dev": {
+				"title": "微信小程序-develop",
+				"env": {
+					"UNI_PLATFORM": "mp-weixin"
+				},
+				"define": {
+					"WX-DEV": true
+				}
+			},
+			"wx-test": {
+				"title": "微信小程序-test",
+				"env": {
+					"UNI_PLATFORM": "mp-weixin"
+				},
+				"define": {
+					"WX-TEST": true
+				}
+			},
+			"wx-prod": {
+				"title": "微信小程序-production",
+				"env": {
+					"UNI_PLATFORM": "mp-weixin"
+				},
+				"define": {
+					"WX-PROD": true
+				}
+			}
+		}
+	}
+}

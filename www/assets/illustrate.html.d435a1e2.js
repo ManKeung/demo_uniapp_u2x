@@ -1,0 +1,35 @@
+import{_ as r,r as l,o as t,a as i,b as n,e as a,F as o,d as e,c as p}from"./app.77e98066.js";const c={},u=n("h1",{id:"\u4ECB\u7ECD",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#\u4ECB\u7ECD","aria-hidden":"true"},"#"),e(" \u4ECB\u7ECD")],-1),b=n("h2",{id:"\u7B80\u4ECB",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#\u7B80\u4ECB","aria-hidden":"true"},"#"),e(" \u7B80\u4ECB")],-1),d=e("\u6B64\u9879\u76EE\u57FA\u4E8E"),m={href:"https://cn.vuejs.org/index.html",target:"_blank",rel:"noopener noreferrer"},h=e("Vue"),_=e("\u3001"),f={href:"https://uniapp.dcloud.io/",target:"_blank",rel:"noopener noreferrer"},g=e("uniapp"),v=e("\u3001"),x={href:"https://www.uviewui.com/",target:"_blank",rel:"noopener noreferrer"},k=e("uView"),j=e("\u7684web\u79FB\u52A8\u7AEF\u57FA\u7840\u6A21\u677F\uFF0C\u4EE5\u4FBF\u4E8E\u51CF\u5C11\u9879\u76EE\u5F00\u53D1\u642D\u5EFA\u65F6\u95F4\u3002"),w=p(`<h2 id="\u76EE\u5F55\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#\u76EE\u5F55\u7ED3\u6784" aria-hidden="true">#</a> \u76EE\u5F55\u7ED3\u6784</h2><details class="custom-container details"><summary>\u70B9\u51FB\u67E5\u770B</summary><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>.
+\u251C\u2500\u2500 .husky
+\u251C\u2500\u2500 common
+\u251C\u2500\u2500 components
+\u251C\u2500\u2500 docs
+\u251C\u2500\u2500 hybrid
+\u251C\u2500\u2500 mixins
+\u251C\u2500\u2500 pages
+\u251C\u2500\u2500 router
+\u251C\u2500\u2500 scripts
+\u251C\u2500\u2500 static
+\u251C\u2500\u2500 store
+\u251C\u2500\u2500 style
+\u251C\u2500\u2500 uni_modules
+\u251C\u2500\u2500 util
+\u251C\u2500\u2500 .env.dev.js
+\u251C\u2500\u2500 .env.js
+\u251C\u2500\u2500 .env.prod.js
+\u251C\u2500\u2500 .env.test.js
+\u251C\u2500\u2500 .eslintignore
+\u251C\u2500\u2500 .eslintrc.js
+\u251C\u2500\u2500 .npmrc
+\u251C\u2500\u2500 App.vue
+\u251C\u2500\u2500 LICENSE
+\u251C\u2500\u2500 README.md
+\u251C\u2500\u2500 commitlint.config.js
+\u251C\u2500\u2500 main.js
+\u251C\u2500\u2500 manifest.json
+\u251C\u2500\u2500 package.json
+\u251C\u2500\u2500 pages.json
+\u251C\u2500\u2500 pnpm-lock.yaml
+\u251C\u2500\u2500 template.h5.html
+\u251C\u2500\u2500 uni.scss
+\u2514\u2500\u2500 vue.config.js
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br></div></div></details><h2 id="\u57FA\u7840\u77E5\u8BC6" tabindex="-1"><a class="header-anchor" href="#\u57FA\u7840\u77E5\u8BC6" aria-hidden="true">#</a> \u57FA\u7840\u77E5\u8BC6</h2><p>\u672C\u9879\u76EE\u9700\u8981\u4E00\u5B9A\u524D\u7AEF\u57FA\u7840\u77E5\u8BC6\uFF0C\u8BF7\u786E\u4FDD\u638C\u63E1 Vue/uniApp \u7684\u57FA\u7840\u77E5\u8BC6\uFF0C\u4EE5\u4FBF\u80FD\u5904\u7406\u4E00\u4E9B\u5E38\u89C1\u7684\u95EE\u9898\u3002 \u5EFA\u8BAE\u5728\u5F00\u53D1\u524D\u5148\u5B66\u4E00\u4E0B\u4EE5\u4E0B\u5185\u5BB9\uFF0C\u63D0\u524D\u4E86\u89E3\u548C\u5B66\u4E60\u8FD9\u4E9B\u77E5\u8BC6\uFF0C\u4F1A\u5BF9\u9879\u76EE\u7406\u89E3\u975E\u5E38\u6709\u5E2E\u52A9:</p>`,4),V={href:"https://cn.vuejs.org/",target:"_blank",rel:"noopener noreferrer"},E=e("Vue \u5B98\u7F51"),y={href:"https://uniapp.dcloud.io/",target:"_blank",rel:"noopener noreferrer"},N=e("uniapp \u5B98\u7F51"),A={href:"https://www.uviewui.com/",target:"_blank",rel:"noopener noreferrer"},B=e("uView"),I={href:"https://es6.ruanyifeng.com/",target:"_blank",rel:"noopener noreferrer"},L=e("Es6");function C(F,S){const s=l("ExternalLinkIcon");return t(),i(o,null,[u,b,n("p",null,[d,n("a",m,[h,a(s)]),_,n("a",f,[g,a(s)]),v,n("a",x,[k,a(s)]),j]),w,n("ul",null,[n("li",null,[n("a",V,[E,a(s)])]),n("li",null,[n("a",y,[N,a(s)])]),n("li",null,[n("a",A,[B,a(s)])]),n("li",null,[n("a",I,[L,a(s)])])])],64)}var M=r(c,[["render",C],["__file","illustrate.html.vue"]]);export{M as default};

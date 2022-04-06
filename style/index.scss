@@ -1,0 +1,6 @@
+@import './demo.scss';
+
+// H5特有的样式
+/* #ifdef H5 */
+@import './h5.scss';
+/* #endif */

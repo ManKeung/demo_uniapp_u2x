@@ -1,0 +1,1 @@
+const e={key:"v-1463e7e5",path:"/care/",title:"\u6CE8\u610F\u4E8B\u9879",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"git commit\u89C4\u8303",slug:"git-commit\u89C4\u8303",children:[]},{level:2,title:"h5\u63D0\u4F9Bnprogress\u529F\u80FD",slug:"h5\u63D0\u4F9Bnprogress\u529F\u80FD",children:[]}],git:{},filePathRelative:"care/README.md"};export{e as data};

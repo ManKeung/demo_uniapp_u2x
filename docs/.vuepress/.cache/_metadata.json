@@ -1,0 +1,36 @@
+{
+  "hash": "ea685f42",
+  "browserHash": "6ff8a90f",
+  "optimized": {
+    "vue": {
+      "file": "E:/Project/uniapp2x/docs/.vuepress/.cache/vue.js",
+      "src": "E:/Project/uniapp2x/node_modules/.pnpm/registry.npmmirror.com+@vue+runtime-dom@3.2.31/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "file": "E:/Project/uniapp2x/docs/.vuepress/.cache/vue-router.js",
+      "src": "E:/Project/uniapp2x/node_modules/.pnpm/registry.npmmirror.com+vue-router@4.0.14_vue@3.2.31/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "needsInterop": false
+    },
+    "@vue/devtools-api": {
+      "file": "E:/Project/uniapp2x/docs/.vuepress/.cache/@vue_devtools-api.js",
+      "src": "E:/Project/uniapp2x/node_modules/.pnpm/registry.npmmirror.com+@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "file": "E:/Project/uniapp2x/docs/.vuepress/.cache/@vueuse_core.js",
+      "src": "E:/Project/uniapp2x/node_modules/.pnpm/registry.npmmirror.com+@vueuse+core@8.2.3_vue@3.2.31/node_modules/@vueuse/core/index.mjs",
+      "needsInterop": false
+    },
+    "nprogress": {
+      "file": "E:/Project/uniapp2x/docs/.vuepress/.cache/nprogress.js",
+      "src": "E:/Project/uniapp2x/node_modules/.pnpm/registry.npmmirror.com+nprogress@0.2.0/node_modules/nprogress/nprogress.js",
+      "needsInterop": true
+    },
+    "@vuepress/shared": {
+      "file": "E:/Project/uniapp2x/docs/.vuepress/.cache/@vuepress_shared.js",
+      "src": "E:/Project/uniapp2x/node_modules/.pnpm/registry.npmmirror.com+@vuepress+shared@2.0.0-beta.37/node_modules/@vuepress/shared/lib/esm/index.js",
+      "needsInterop": false
+    }
+  }
+}
